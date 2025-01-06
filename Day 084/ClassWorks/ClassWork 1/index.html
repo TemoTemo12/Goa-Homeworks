@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Interactive Card Details Form</title>
+</head>
+<body>
+
+     <div class="left-div"></div>
+
+    <div class="cardBackend"><img src="./images/cardBackend.png"></div>
+
+    <div class="card">
+        <img src="./images/profile.png" class="profile">
+        
+            <h1 class="numbers">0000 0000 0000 0000</h1>
+            <h3 class="name">Name</h3>
+            <h3 class="cvc">00/00</h3>
+    </div>
+
+    
+
+    <div class="main">
+        <div>
+            <h1>CARDHOLDER NAME</h1>
+            <input type="text" id="name" placeholder="e.g. Jane Appleseed">
+        </div>
+
+        <div>
+            <h1>CARD NUMBER</h1>
+            <input type="tel"  id="c-number" placeholder="e.g. 1234 5678 9123 0000">
+        </div>
+
+        <div>
+            <h1>EXP.DATE(MM/YY)</h1>
+            <input type="datetime" id="month" placeholder="MM">
+            <input type="datetime" id="year" placeholder="YY">
+        </div>
+
+        <div class="cvc-input">
+            <h1>CVC</h1>
+            <input type="text" id="cvc" placeholder="e.g. 123">
+        </div>
+
+        <div>
+            <button class="confirm">CONFIRM</button>
+        </div>
+
+    </div> 
+
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

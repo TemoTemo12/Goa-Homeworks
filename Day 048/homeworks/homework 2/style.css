@@ -1,0 +1,56 @@
+.main {
+    background-color: gray;
+    width: 700px;
+    height: 550px;
+    margin-left: 320px;
+    margin-top: 250px;
+
+}
+.div1 {
+    background-color: white;
+    border-radius: 19px;
+    width: 200px;
+    border: solid black;
+    margin-left: 210px;
+}
+
+.div2 {
+    background-color: white;
+    border-radius: 19px;
+    width: 200px;
+    border: solid black;
+    margin-left: 20px;
+}
+
+.div3 {
+    background-color: white;
+    border-radius: 19px;
+    width: 200px;
+    border: solid black;
+    margin-left: 230px;
+    margin-top: -150px;
+}
+.div4 {
+    background-color: white;
+    border-radius: 19px;
+    width: 200px;
+    border: solid black;
+    margin-left: 450px;
+    margin-top: -150px;
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+    margin-left: 30px;
+}
+.title {
+    margin-left: 150px;
+}

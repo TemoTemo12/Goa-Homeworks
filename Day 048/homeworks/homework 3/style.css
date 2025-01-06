@@ -1,0 +1,65 @@
+.header-div {
+margin-top: 250px;
+margin-left: 300px; ;
+background-color: gray;
+width: 900px ;
+}
+.title1 {
+    color:cyan;
+    margin-left:  30px ;
+}
+
+.title2 {
+    color: yellowgreen;
+    margin-left:  30px ;
+}
+
+.title3 {
+    color:  whitesmoke;
+    margin-left:  30px ;
+}
+
+
+.footer-div {
+    width: 500px ;
+    background-color: green;
+}
+
+
+.button {
+    background-color: yellowgreen;
+    border-radius: 20px;
+    height: 50px;
+    width: 200px ;
+    margin-left: 150px;
+    color: whitesmoke;
+}
+
+button:hover {
+    background-color: gray;
+    color: chartreuse;
+    margin-left: 160px;
+}
+.texts {
+    color: white;
+    margin-left: 50px;
+}
+
+.right-div {
+    width: 400px ;
+    height: 215px;
+    background-color: yellowgreen;
+    color: white;
+    margin-left: 500px;
+    margin-top: -235px;
+}
+
+
+.div-text {
+    margin-left: 15px;
+}
+
+
+div{
+    border-radius: 20px;
+}

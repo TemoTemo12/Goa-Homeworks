@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #131519;
+}
+
+.container {
+    background: #1F2631;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 350px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.rating-component{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-btn{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rating-header {
+    margin-bottom: 20px;
+}
+
+.star-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.rating-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.rating-btn {
+    background-color: #717780;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rating-btn:hover, .rating-btn.selected {
+    background-color: #FA7814;
+    color: white;
+
+}
+
+.submit-btn {
+    background-color: #FA7814;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+
+.txt1{
+    color: white;
+}
+
+.txt2{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #FA7814;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+    margin-top: 50px;
+  }
+  
+  .reset-button:hover {
+    animation: wiggle 0.5s ease;
+  }
+  
+  .reset-button:active {
+    transform: scale(0.95);
+  }
+  
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(-5deg); }
+    50% { transform: rotate(5deg); }
+  }
+  
+  .popup {
+    display: none;
+    padding: 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #2ecc71;
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: transform 0.3s ease-in-out;
+    margin-top: -300px;
+  }
+  
+  .popup.show {
+    display: block;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+
+
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    .rating-buttons {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .rating-btn {
+        width: 45px;
+        height: 45px;
+    }
+
+    .submit-btn {
+        padding: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .star-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .rating-header h1 {
+        font-size: 1.25rem;
+    }
+
+    .rating-header p {
+        font-size: 0.875rem;
+    }
+
+    .rating-btn {
+        width: 40px;
+        height: 40px;
+        font-size: 0.875rem;
+    }
+
+    .submit-btn {
+        padding: 10px;
+        font-size: 0.875rem;
+    }
+
+    .rating-message {
+        font-size: 0.875rem;
+    }
+}
+
+.main{
+    height: 400px;
+    width: 330px;
+    background-color: #1E252F;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 3px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px #3e4042;
+    
+}
+
+.main-img{
+    border-radius: 20px;
+}
+
+
+.txt3{
+    font-size: 24px;
+}
+
+
+.back{
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #FA7814;
+    border-radius: 20px;
+    margin-top: 500px;
+    margin-left: -250px;
+}
+
+.back:hover{
+    background-color: white;
+    letter-spacing: 2px;
+    transform: scale(1.1);
+    transition: 00.93s;
+    
+}

@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin-left: -210px;
+    
+  }
+  
+  .title1 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+    margin-top: -700px;
+    margin-left: 00px;
+  }
+  
+  /* Form Styles */
+  .inputs {
+    margin-bottom: 20px;
+  }
+  
+  .bill, .tip, .number-of-people {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="number"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input[type="button"] {
+    width: 48%;
+    padding: 10px;
+    margin: 1%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  input[type="button"]:hover {
+    background-color: #ddd;
+  }
+  
+  input[type="reset"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #26c0ab;
+    color: white;
+  }
+  
+  input[type="reset"]:hover {
+    background-color: #1ea08e;
+  }
+  
+  /* Active Tip Button */
+  .active {
+    background-color: #26c0ab;
+    color: white;
+  }
+  
+  /* Results Section */
+  .results {
+    margin-top: 20px;
+  }
+  
+  .results div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .results h1 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+  }
+  
+  .results label {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .results input[type="reset"] {
+    margin-top: 20px;
+  }
+  

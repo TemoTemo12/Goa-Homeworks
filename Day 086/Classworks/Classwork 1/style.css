@@ -1,0 +1,439 @@
+body{
+    background-color: #0C1323;
+}
+
+.first{
+    background-color: #5746EA;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 300px;
+    border-radius: 10px;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
+.first-footer{
+    background-color: #1E204C;
+    width: 200px;
+    height: 150px;
+    color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+.profile{
+    border-radius: 10px;
+}
+
+
+.jeremy{
+    padding-left: 10px;
+    padding-top: -20px;
+    color: white;
+}
+
+
+.txt1, .txt2, .txt3{
+    font-size: 20px;
+    color: #414478;
+    padding-left: 12px;
+    padding-top: 10px;
+}
+
+.txt1:hover{
+    color: white;
+    transition-duration: 3s;
+    letter-spacing: 3px;
+}
+
+.txt2:hover{
+    color: white;
+    transition-duration: 3s;
+    letter-spacing: 3px;
+}
+
+.txt3:hover{
+    color: white;
+    transition-duration: 3s;
+    letter-spacing: 3px;
+}
+
+/*  ########################### */
+
+.card {
+    background-color: #242424;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+    margin-top: -310px;
+    height: 150px;
+  }
+  
+  .header {
+    background-color: #FF6B6B;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .header-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .header-icon svg {
+    width: 15px;
+    height: 15px;
+    fill: #000;
+  }
+  
+  .content {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #888;
+  }
+
+  /*##########################  */
+
+  .card2 {
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 800px;
+    margin-top: -190px;
+    width: 200px;
+    height: 150px;
+  }
+  
+  .header2 {
+    background-color: #4CC7F2;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .header2.icon {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -10px;
+  }
+  
+  .header2.icon::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+  }
+  
+  .header2.icon::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+  }
+  
+  .header .icon::before,
+  .header .icon::after {
+    box-shadow: 0 0 0 2px #ffffff;
+  }
+  
+  .title2 {
+    font-size: 1.2em;
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .value2 {
+    font-size: 3em;
+    color: #ffffff;
+  }
+  
+  .subtitle2 {
+    font-size: 0.8em;
+    color: #ffffff;
+    opacity: 0.8;
+  }
+
+  /* ############################## */
+
+
+  .card3 {
+    background-color: #282828;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1100px;
+    margin-top: -190px;
+    width: 200px;
+    height: 170px;
+    color: white;
+  }
+  
+  .header3 {
+    background-color: #FF6384;
+    border-radius: 10px 10px 0 0;
+    padding: 10px;
+    text-align: right;
+  }
+  
+  .header3::before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 0 0;
+    border-color: #FF6384 transparent transparent transparent;
+    margin-right: 10px;
+    margin-top: -10px;
+  }
+  
+  .title3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .time3 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .last-week3 {
+    font-size: 0.8em;
+    opacity: 0.7;
+  }
+
+  /* ########### */
+
+  .card4 {
+    background-color: #282c34;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 500px;
+  }
+  
+  .top4 {
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .top4 h2 {
+    color: white;
+    margin: 0;
+  }
+  
+  .top4 svg {
+    width: 20px;
+    height: 20px;
+    fill: white;
+  }
+  
+  .bottom4 {
+    margin-top: 20px;
+  }
+  
+  .bottom4 h1 {
+    color: white;
+    font-size: 3em;
+    margin: 0;
+  }
+  
+  .bottom4 p {
+    color: #d9d9d9;
+    font-size: 0.8em;
+    margin-top: 5px;
+  }
+
+  /* ############## */
+
+  .card5 {
+    width: 200px;
+    height: 150px;
+    background-color: #6253E1;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 800px;
+    margin-top: -200px;
+  }
+  
+  .card5 .title5 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card5 .value5 {
+    color: #FFFFFF;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card5 .subtitle5 {
+    color: #FFFFFF;
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .card5 .icon5 {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    color: #FFFFFF;
+  }
+  
+  .card5 .menu5 {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+  
+
+  /* ######################## */
+
+
+  .container6 {
+    width: 250px;
+    height: 110px;
+    background-color: #111;
+    border-radius: 10px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 1100px;
+    margin-top: -100px;
+  }
+  
+  .top-bar6 {
+    width: 100%;
+    height: 30px;
+    background-color: #FFD700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .close-icon6 {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .close-icon6:before {
+    content: "\00D7";
+    font-size: 12px;
+    color: #111;
+  }
+  
+  .content6 {
+    width: 100%;
+    height: 70px;
+    background-color: #222;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title6 {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .time6 {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  .last-week6 {
+    font-size: 12px;
+    color: #888;
+    margin-top: 5px;
+  }

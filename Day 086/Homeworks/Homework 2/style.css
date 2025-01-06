@@ -1,0 +1,130 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu ul li .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.menu ul li .dropdown li {
+    padding: 5px 20px;
+}
+
+.menu ul li .dropdown li a {
+    color: #333;
+}
+
+.menu ul li:hover .dropdown {
+    display: block;
+}
+
+.auth a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+}
+
+.auth a.register {
+    padding: 10px 20px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+
+.middle{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+.txt1{
+    font-size: 60px;
+}
+
+.txt2{
+    width: 400px;
+}
+
+
+.learn-more{
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 150px;
+    border-radius: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.learn-more:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: #FFFFFF;
+    border: solid black;
+    color: black;
+}
+
+.black-man{
+    margin-left: 900px;
+    margin-top: -300px;
+}
+
+.footer-div{
+    margin-top: -100px;
+}
+
+.footer{
+    margin-top: -700px;
+    margin-left: 200px;
+}

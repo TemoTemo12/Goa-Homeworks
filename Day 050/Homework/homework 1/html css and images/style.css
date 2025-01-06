@@ -1,0 +1,140 @@
+.purple-block {
+    background: linear-gradient(to left, violet, purple );
+    width: 230px;
+    height: 600px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.mobile {
+    width: 200px;
+    height: 420px ;
+    background-color: white;
+    margin-left: 250px;
+    margin-top: -520px;
+    border-radius: 30px;
+    border: solid black;
+}
+.island {
+    border: solid white;
+    width: 90px;
+    height: 15px;
+    margin-left: 50px;
+    border-radius: 50px;
+    background-color: black;
+    z-index: 123;
+}
+/* add images and text when internet is back */
+.profile {
+    border: solid black;
+    height: 45px;
+    border-radius: 25px;
+    margin-top: -20px;
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    background: linear-gradient(to left, violet, purple );
+    z-index: 12;
+}
+
+.SMS1 {
+    width: 180px;
+    height: 40px;
+    background-color:whitesmoke ;
+    color: violet;
+    border-radius: 30px;
+}
+.SMS2 {
+    width: 190px;
+    height: 40px;
+    background-color:whitesmoke ;
+    color: violet;
+    border-radius: 30px;
+}
+
+
+/* add images when internet is back */
+
+.SMS3 {
+    width: 190px;
+    height: 40px;
+    background-color:whitesmoke ;
+    color: black;
+    border-radius: 30px;
+    margin-top: -25px;
+
+}
+
+.SMS4 {
+    width: 190px;
+    height: 50px;
+    background-color:whitesmoke ;
+    color: violet;
+    border-radius: 30px;
+}
+
+.choose1-div {
+    margin-top: 15px;
+    background: linear-gradient(to top, purple, violet);
+    border-radius: 30px;
+    height: 30px;
+}
+
+.choose1 {
+    margin-top: 10px;
+    
+
+}
+.choose1-text {
+    margin-left: 20px;
+    margin-top: -20px;
+    color: violet;
+}
+
+.choose2-div {
+    margin-top: 10px;
+    background: linear-gradient(to top, purple, violet);
+    border-radius: 30px;
+    height: 30px;
+}
+
+.choose2  {
+    margin-top: 10px;
+}
+.choose2text {
+    margin-top: -20px;
+    margin-left: 20px;
+    color: violet;
+}
+
+.man-img {
+    width: 25px;
+    margin-left: 30px ;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.title {
+    margin-top: -25px;
+    margin-left: 60px;
+    color: white;
+}
+
+.dog-img{
+    width: 90px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+
+.simple-booking {
+    margin-left: 620px;
+    letter-spacing: 10px;
+    margin-top: -350px;
+    width: 400px;
+}
+
+.big-text {
+    letter-spacing: 2px;
+    margin-left: 600px;
+    width: 900px;
+    font-weight: bolder;
+}

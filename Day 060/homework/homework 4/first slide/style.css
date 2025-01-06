@@ -1,0 +1,40 @@
+h1 {
+    margin-left: 520px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow:  2px 4px 5px greenyellow ;
+    margin-top: 220px;
+}
+
+h1:hover{
+    word-spacing: 3px;
+    letter-spacing: 2px;
+
+}
+
+
+.second {
+    margin-left: 20px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.first {
+    margin-left: 500px;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.first:hover {
+    transform: scale(1.1);
+}
+
+.second:hover {
+    transform: scale(1.1);
+}
+
+body{
+    background-color: grey;
+}

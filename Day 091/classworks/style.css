@@ -1,0 +1,81 @@
+/* design */
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#text-container {
+    margin-bottom: 20px;
+    text-align: center;
+    min-height: 50px;
+    max-width: 90%;
+    transition: all 0.5s ease;
+}
+
+#added-text {
+    font-size: 1.5rem;
+    color: #333;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #6200ea;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+
+
+.delete{
+    margin-top: 10px;
+}
+
+
+.title{
+    font-family: monospace;
+    letter-spacing: 11px;
+}
+
+@media (max-width: 480px) {
+    #added-text {
+        font-size: 1.2rem;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+    .title{
+        display: none;
+    }
+}

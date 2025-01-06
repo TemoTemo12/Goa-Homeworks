@@ -1,0 +1,125 @@
+.profile{
+    width:90px;
+    border-radius: 50%;
+    height: 90px;
+    margin-left: 30px;
+    margin-top: 4px;
+}
+
+.header {
+    background-color: chartreuse;
+    border-radius: 60px;
+    border: solid black;
+    width: 150px;
+    height: 150px;
+}
+
+.profile:hover{
+    transform: scale(1.1);
+}
+
+.balance {
+    background-color: yellow;
+    border-radius: 60px;
+    border: solid black;
+    margin-left: 40px;
+    
+}
+
+.balance:hover{
+    transform: scale(1.1);
+
+}
+
+
+
+
+
+ /* ############################################ */
+
+img {
+    width: 40px;
+    height: 50px;
+    background-color: white;
+    border-radius: 40px;
+}
+.change {
+    background-color: lime;
+    width: 40px;
+    border-radius: 50px;
+    margin-left: 200px;
+}
+option {
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+}
+div {
+    background-color: lime;
+    width: 350px;
+    border-radius: 20px;
+}
+
+
+.title {
+    margin-left: 43px;
+}
+
+.tanxa {
+    border-radius: 10px;
+    width: 150px;
+    height: 25px;
+}
+.select {
+    border-radius: 50px;
+    width: 150px;
+    height: 25px;
+}
+
+.gel {
+    margin-left: 60px;
+}
+
+.dollar {
+    width: 50px ;
+    border-radius: 40px;
+    margin-left: 5px;
+    margin-top: 4px;
+}
+.ass-dolari {
+    margin-left: 70px;
+    margin-top: -50px;
+}
+.two-text {
+    margin-left: 190px;
+    margin-top: -50px;
+}
+
+.div {
+    margin-left: 360px;
+    margin-top: 35px;
+}
+
+.text2 {
+margin-left: 360px;
+margin-top: -325px;
+background-color: lime;
+width: 100px;
+border-radius: 20px;
+}
+
+
+.pay-button{
+    background-color: powderblue;
+    color: black;
+    margin-left: 120px;
+    border-radius: 20px;
+    margin-top: 10px;
+    height: 30px;
+    width: 90px;
+}
+
+.txt-inp {
+    border-radius: 20px;
+    margin-left: 40px;
+}

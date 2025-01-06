@@ -1,0 +1,108 @@
+ body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-div{
+    width: 415px;
+    height: 870px;
+    background-color: black;
+    border: solid black;
+    margin-left: -50px;
+    margin-top: -20px;
+}
+
+.cardBackend{
+    margin-top: -400px;
+    margin-left: 169px;
+    width: 100px;
+}
+
+.cardBackend:hover{
+    transform: rotate(5deg);
+    transition: 4s;
+}
+
+.card{
+    width: 390px;
+    height: 200px;
+    margin-left: 120px;
+    border-radius: 10px;
+    background: #623AE8;
+    margin-top: -500px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.card:hover{
+    transform: rotate(5deg);
+    transition: 4s;
+}
+
+.numbers{
+    margin-left: 30px;
+}
+
+.cvc{
+    margin-left: 300px;
+    margin-top: -37px;
+}
+
+.name{
+    margin-left: 20px;
+    
+}
+
+.profile{
+    border-radius: 50%;
+}
+
+.main{
+    margin-left: 800px;
+    font-size: 10px;
+    margin-top: -100px;
+} 
+
+#month, #year{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid #B8B6BE;
+}
+
+#name , #c-number{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid #B8B6BE;
+}
+
+#cvc{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    padding-left: 10px;
+    border: solid #B8B6BE;
+}
+
+.cvc-input{
+    margin-left:260px;
+    margin-top: -89px;
+}
+
+.confirm{
+    height: 50px;
+    width: 350px;
+    background-color: #22092F;
+    color: white;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 30px;
+}
+
+.confirm:hover{
+    transform: scale(1.1);
+    transition: 5s;
+}
+

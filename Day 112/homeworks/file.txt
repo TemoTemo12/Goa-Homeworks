@@ -1,0 +1,17 @@
+for i in {2..20..2}; do
+  rm -r "folder$i"
+done
+
+
+removed 20 files using this code
+
+
+
+5 homework code
+
+for i in {2..20..2}; do
+  mkdir -p "folder$i"                      # ლუწ ნომრიანი ფოლდერის შექმნა
+  for j in {1..20}; do
+    echo "დავალება $j" > "folder$i/davaleba$j.txt"   # ფაილის შექმნა და შიგნით ტექსტის ჩაწერა
+  done
+done

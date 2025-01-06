@@ -1,0 +1,28 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  header {
+    background-color: #f0f8ff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  section {
+    padding: 20px;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #333;
+    border-radius: 5px;
+  }
+  

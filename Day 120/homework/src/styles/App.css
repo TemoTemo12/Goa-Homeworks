@@ -1,0 +1,191 @@
+/* styles/styles.css */
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Navbar */
+  nav {
+    background-color: #333;
+    padding: 10px 20px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    color: #f1c40f;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
+  
+  footer ul li {
+    margin: 0 15px;
+  }
+  
+  footer ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  footer ul li a:hover {
+    color: #f1c40f;
+  }
+  
+  /* Page Styles */
+  h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #2c3e50;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  /* Teams Page */
+  ul.team-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  ul.team-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  ul.team-list li:hover {
+    background-color: #f39c12;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ul.team-list li a {
+    color: inherit;
+    font-size: 16px;
+  }
+  
+  /* Player Page */
+  .player-detail {
+    text-align: center;
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .player-detail h2 {
+    font-size: 32px;
+    color: #f39c12;
+  }
+  
+  .player-detail p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  /* Portfolio Page */
+  ul.portfolio-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  ul.portfolio-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  ul.portfolio-list li:hover {
+    background-color: #16a085;
+    color: white;
+  }
+  
+  /* Lions Page */
+  ul.lions-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  ul.lions-list li {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  ul.lions-list li:hover {
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+  }
+  
+  ul.lions-list li a {
+    color: inherit;
+    font-size: 16px;
+  }
+  

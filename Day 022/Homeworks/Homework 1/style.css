@@ -1,0 +1,16 @@
+body{
+    background: linear-gradient(blue , grey);
+}
+#georgia{
+    text-align: center;
+    color: red;
+}
+#about{
+    text-align: center;
+    color: black;
+}
+#button{
+    height: 100px;
+    width: 100px;
+    color: red;
+}

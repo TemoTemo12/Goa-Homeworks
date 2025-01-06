@@ -1,0 +1,17 @@
+body {
+    background-color: yellow;
+}
+.div {
+    margin-left: 300px;
+    margin-top: 300px;
+    width: 550px;
+    height: 625px;
+    background-color: white;
+    border-radius: 20px;
+}
+.img {
+    width: 500px;
+    height: 250px;
+    margin-left: 25px;
+    border-radius: 10px;
+}

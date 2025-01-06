@@ -1,0 +1,85 @@
+.result {
+    background-color: purple;
+    width: 240px;
+    height: 430px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+.youresult {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.numbers {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 60px;
+    background-color: blueviolet;
+    margin-left: 50px;
+    border-radius: 50px;
+}
+.number2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 10px;
+    background-color: blueviolet;
+    margin-left: 50px;
+    border-radius: 50px;
+    margin-top: -50px;
+}
+.great {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-right: 13px;  
+}
+.text {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 25px;
+}
+.seconddiv {
+    background-color: antiquewhite;
+    width: 240px;
+    height: 430px;
+    border-radius: 20px;
+    margin-left: 540px;
+    margin-top: -449px;
+}
+.react {
+    color: red ;
+    margin-top: 50px;
+}
+
+.memor {
+    color: orange;
+    margin-top: 50px;
+}
+
+.verb {
+    color: cyan;
+    margin-top: 50px;
+}
+.vis {
+    color: blue;
+    margin-top: 50px;
+}
+
+
+.button {
+    background-color: blue;
+    width: 120px;
+    border-radius: 100px;
+    margin-top: 10px;
+    width: 160pt;
+    color: white;
+}

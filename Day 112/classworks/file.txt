@@ -1,0 +1,6 @@
+for i in {2..20..2}; do
+  mkdir "folder$i"
+done
+
+
+added files in cw folder

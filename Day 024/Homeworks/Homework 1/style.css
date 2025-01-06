@@ -1,0 +1,20 @@
+
+body{
+    background: linear-gradient(120deg,grey , blue);
+}
+
+
+#wikipedia{
+    border-radius: 25px;
+    border: 2px solid;
+    margin-left: 99px;
+    background-color: rgb(38, 12, 206);
+    border-color: rgb(0, 0, 0);
+    border-width: 3px;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    transition: 0.5s;
+}

@@ -1,0 +1,11 @@
+.img {
+    width: 300px;
+    margin-left: 45px;
+}
+.div {
+    width: 400px;
+    height: 600px;
+    margin-left: 400px;
+    margin-top: 300px;
+    background-color: gray;
+}

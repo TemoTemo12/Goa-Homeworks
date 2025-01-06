@@ -1,0 +1,108 @@
+.buttons {
+    height: 40px ;
+    width: 200px ;
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+    }
+    
+.buttons:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+body {
+    background-color: #3498db;
+}
+
+.hcjp {
+ background-color: darkblue;
+ padding: 10px;
+ width: 90px;
+ border-radius: 30px;
+ border: solid white;
+ color: white;
+ margin-left: 460px;
+ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ margin-bottom: -119px;
+}
+
+.hcjp:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+
+
+.title {
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sign-in{
+    margin-left: 630px ;
+    margin-top: 50px ;
+    height: 50px ;
+    width: 190px ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.sign-in:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+.last-words {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 300px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-size: 60px;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.ceo {
+    height: 40px ;
+    width: 200px ;
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+
+
+}
+.ceo:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}
+
+
+.leave {
+    display: inline-block;
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+}
+.leave:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: #3498db;
+}

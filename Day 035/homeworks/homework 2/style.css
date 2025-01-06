@@ -1,0 +1,20 @@
+.img {
+    width: 400px;
+    height: 450px;
+    margin-top: 100px;
+    margin-left: 10px;
+}
+.div {
+    background-color: gray;
+    width: 240px;
+    margin-left: 413px;
+    margin-top: -470px;
+}
+
+.button {
+    background-color: green;
+    border-radius: 20px;
+    width: 120px;
+    height: 67px;
+    margin-left: 45px;
+}

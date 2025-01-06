@@ -1,0 +1,128 @@
+.title{
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 100px;
+}
+
+.txt-div{
+    color: #BEBCBA;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin-left: 900px;
+    margin-top: -90px;
+}
+
+.txt1{
+    margin-left: -100px;
+}
+
+.txt2{
+    margin-left: 50px;
+}
+
+.txt3{
+    margin-left: 50px;
+}
+
+.txt4{
+    margin-left: 50px;
+}
+
+.txt5{
+    margin-left: 50px;
+}
+
+.txt1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.txt2:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.txt3:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.txt4:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.txt5:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    color: black;
+    letter-spacing: 2px;
+}
+
+.rainbow{
+    height: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 700px;
+
+}
+
+.New{
+    margin-left: 900px;
+    margin-top: -355px;
+    height: 700px;
+}
+
+.title2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    margin-top: -280px;
+    margin-left: 100px;
+}
+
+.txt6{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
+    margin-left: 450px;
+    margin-top: -230px;
+    color: #C5C3C2;
+}
+
+.btn1{
+    height: 50px;
+    width: 150px;
+    background-color: #F15D53;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    margin-left: 447px;
+    border: solid #F15D53;
+
+}
+
+.btn1:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    border-radius: 20px;
+    background-color: black;
+    color: #F15D53;
+    letter-spacing: 2px;
+    box-shadow: 5px 5px 25px 5px #F15D53;
+    border: solid black;
+}
+
+
+
+.footer{
+    margin-top: 200px;
+    width: 1400px;
+    margin-left: 50px;
+}

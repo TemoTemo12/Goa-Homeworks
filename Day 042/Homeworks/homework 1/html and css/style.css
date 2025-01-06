@@ -1,0 +1,12 @@
+div {
+    justify-content: center;
+    margin-left: 10px;
+}
+.title {
+    height:20px ;
+    padding: 5px;
+    margin-left: 10px;
+}
+body {
+    background-color:pink ;
+}

@@ -1,0 +1,21 @@
+.ins {
+    color: blue;
+    display: inline;
+}
+
+img {
+    width:300px ;
+    height: 300px;
+    display: flex;
+
+
+}
+
+.h1 {
+    display: inline;
+}
+
+body{
+    background-color: cadetblue;
+}
+

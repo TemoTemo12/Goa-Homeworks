@@ -1,0 +1,12 @@
+body{
+    background: linear-gradient(grey , white);
+}
+#ilia{
+    text-align: center;
+    color: black;
+}
+#about{
+    text-decoration: underline;
+    text-decoration-color: goldenrod ;
+    color: black;
+}

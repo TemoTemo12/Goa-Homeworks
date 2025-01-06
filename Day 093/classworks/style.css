@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.box-container{
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.box{
+    background-color: wheat;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}

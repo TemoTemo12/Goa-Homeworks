@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: 20px;
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+}
+
+.card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.card p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.card a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.card-sedan {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card-suv {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}

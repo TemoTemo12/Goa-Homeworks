@@ -1,0 +1,100 @@
+body{
+    background-color: #13162B;
+}
+
+.child-1 {
+    width: 350px;
+    height: 350px;
+    background-color: #0083F7;
+    border-radius: 15px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+.child-2{
+    background-color: #161D59;
+    border-radius: 15px;
+    height: 250px;
+    width: 450px;
+    margin-left: 450px;
+    margin-top: -300px;
+}
+
+
+.mini-main{
+    margin-left: 500px;
+    margin-top: -60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+
+}
+
+
+#plus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left: 5px;
+    height: 35px;
+    width: 90px;
+    background-color: #0087FF;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-size: large;
+    border-radius: 5px;
+    border: #0083F7;
+}
+
+#reset{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left: 20px;
+    height: 35px;
+    width: 90px;
+    background-color: #0087FF;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-size: large;
+    border-radius: 5px;
+    border: #0083F7;
+}
+
+#minus{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 150px;
+    margin-left: 20px;
+    height: 35px;
+    width: 90px;
+    background-color: #0087FF;
+    color: #FFFFFF;
+    letter-spacing: 2px;
+    font-size: large;
+    border-radius: 5px;
+    border: #0083F7;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: rgb(41, 104, 221);
+    transition: 1s;
+}
+
+
+
+#counter {
+    margin-left: 650px;
+    margin-top: -220px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+}
+
+
+
+
+
+
+
+
+/* 100th code wow */

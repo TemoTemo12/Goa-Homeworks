@@ -1,0 +1,302 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background: #ff7a59;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cta {
+    background: #fff;
+    color: #ff7a59;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.middleFooter{
+    width: 1550px;
+}
+
+.mobille{
+    background-color: #363753;
+    height: 344px;
+    border-top-right-radius: 130px;
+}
+
+.phone{
+    margin-top: -87.9px;
+}
+
+.text4{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-top: -400px;
+}
+
+.text5{
+    margin-left: 540px;
+    color: #fff;
+    width: 400px;
+}
+
+
+.computer{
+    margin-top: 100px;
+}
+
+
+.text6, .text7{
+    margin-left: 700px;
+
+}
+
+.text6{
+    margin-top: -600px;
+}
+
+.text7{
+    width: 600px;
+}
+
+.text9{
+    width: 600px;
+    margin-left: 700px;
+}
+.text8{
+    margin-left: 700px;
+}
+
+
+.footer {
+    background-color: #2D2E40;
+    padding: 50px 0;
+    color: white;
+    margin-top: 400px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-logo img {
+    width: 150px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.footer-column ul li a:hover {
+    color: #FF7E6B;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .middleFooter {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .mobille {
+        padding: 20px;
+        text-align: center;
+        height: auto;
+        border-top-right-radius: 50px;
+    }
+
+    .phone {
+        width: 100%;
+        max-width: 200px;
+        margin-top: 20px;
+    }
+
+    .text4 {
+        font-size: 1.5rem;
+        margin-top: 20px;
+    }
+
+    .text5 {
+        margin: 20px auto;
+        width: auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .computer-section {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .computer {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .text6, .text7, .text8, .text9 {
+        max-width: 100%;
+        margin: 20px auto;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-column {
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.1rem;
+    }
+
+    .text4 {
+        margin-top: 0;
+        font-size: 1.75rem;
+    }
+    
+    .text5 {
+        width: 90%;
+    }
+
+    .text6 {
+        margin-top: 0;
+        font-size: 1.75rem;
+    }
+
+    .text7, .text9 {
+        width: 90%;
+    }
+
+    .footer-column h3 {
+        font-size: 16px;
+    }
+
+    .footer-column ul li a {
+        font-size: 12px;
+    }
+}

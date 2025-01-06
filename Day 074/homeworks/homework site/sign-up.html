@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<div class="re-main">
+
+    <div class="main">  	
+		<input type="checkbox" id="chk" aria-hidden="true">
+
+			<div class="signup">
+				<form>
+					<label for="chk" aria-hidden="true">Sign up</label>
+					<input type="text" name="txt" placeholder="User name" required="">
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+				<a href="./main.html"><button>Sign up</button></a>
+				</form>
+			</div>
+
+			<div class="login">
+				<form>
+					<label for="chk" aria-hidden="true">Login</label>
+					<input type="email" name="email" placeholder="Email" required="">
+					<input type="password" name="pswd" placeholder="Password" required="">
+					<a href="./main.html"><button>Login</button></a>
+				</form>
+			</div>
+			
+	</div>
+</div>
+
+
+	<a href="./main.html"><button class="submit">submit / Skip</button></a>
+
+
+
+<script>
+	let name = prompt('whats your name:    .')
+	let lastname = prompt('whats your last name:   .')
+	alert(`your name is : ${name} \n  your lastname is: ${lastname} \n Welcome  ${name} , ${lastname}`)
+</script>
+</body>
+</html>

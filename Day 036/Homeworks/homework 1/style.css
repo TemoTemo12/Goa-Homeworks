@@ -1,0 +1,15 @@
+
+.img {
+    width: 300px;
+    height: 300px;
+}
+.div {
+    margin: top 200px; ;
+    margin-left: 300px;
+    background-color: blue;
+    width: 300px;
+    color: white;
+}
+.text {
+    margin-left: 13px;
+}

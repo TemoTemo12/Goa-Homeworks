@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="title1">spli<br>tter</h1>
+    <div class="content">
+      <div class="inputs">
+        <form id="splitter-form">
+          <div class="bill">
+            <label for="bill">Bill</label>
+            <input type="number" id="bill" placeholder="$">
+          </div>
+          <div class="tip">
+            <label for="tip">Select Tip %</label>
+            <div class="buttons">
+              <input type="button" readonly required value="5%" class="tip-button">
+              <input type="button" readonly required value="10%" class="tip-button">
+              <input type="button" readonly required value="15%" class="tip-button">
+              <input type="button" readonly required value="25%" class="tip-button">
+              <input type="button" readonly required value="50%" class="tip-button">
+              <input type="number" placeholder="Custom" class="tip-button" id="custom-tip">
+            </div>
+          </div>
+    
+          <label for="number">Number of People</label>
+          <input type="number" id="number-of-people" placeholder="0">
+      </div>
+        <div class="results">
+          <div class="tip-amount">
+            <label for="tip-amount">Tip Amount <span>/ person</span></label>
+            <h1 id="tip-amount">$0</h1>
+          </div>
+          <div class="total">
+            <label for="total">Total/ person</label>
+            <h1 id="total">$0</h1>
+          </div>
+          <input type="reset" id="reset" value="Reset">
+        </div>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

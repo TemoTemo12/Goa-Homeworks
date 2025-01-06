@@ -1,0 +1,240 @@
+.btns-div{
+    margin-left: 1000px;
+    margin-top: -50px;
+}
+
+.btns{
+    background-color: white;
+    border: solid white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #8f8f8f;
+}
+
+.btns:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    text-decoration: underline;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.logo:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 200px;
+    width: 550px;
+    margin-left: 50px;
+    font-size: 40px;
+}
+
+.text2{
+    font-size: 20px;
+    width: 400px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+
+}
+
+.email{
+    height: 30px;
+    width: 260px;
+    color: #8f8f8f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-left: 50px;
+}
+
+.email:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.started{
+    background-color: #3165FA;
+    border: #3165FA;
+    color: white;
+    height: 40px;
+    width: 165px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.started:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: white;
+    color: #3165FA;
+    border:solid #3165FA;
+    border-radius: 20px;
+    box-shadow: 15px 10px 15px #8F8F8F;
+}
+
+.started:focus{
+    background-color: #C7C5F7;
+    color: white;
+    border: #C7C5F7;
+}
+
+
+.folder{
+    margin-left: 700px;
+    margin-top: -370px;
+}
+
+
+.text3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    margin-top: 150px;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.text4{
+    width: 510px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 50px;
+    font-weight: 30;
+    letter-spacing: 1px;
+}
+
+.link{
+    margin-left: 45px;
+}
+
+.img-div{
+    margin-left: 42px;
+    margin-top: 20px;
+}
+
+.acces{
+    margin-left: 750px;
+    margin-top: -600px;
+}
+
+
+.footer2{
+    background-color: #585989;
+    height: 274px;
+    width: 1555px;
+    margin-left: -41px;
+}
+
+.text5{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 90px;
+    padding-top: 30px;
+}
+
+.text6{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-left: 90px;
+    padding-top: 30px;
+    width: 450px;
+}
+
+.input2{
+    height: 30px;
+    width: 260px;
+    color: #8f8f8f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 1000px;
+    margin-top: -100px;
+    
+}
+
+.started2{
+    background-color: #3165FA;
+    border: #3165FA;
+    color: white;
+    height: 40px;
+    width: 165px;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 1000px;
+    margin-top: -500px;
+    font-size: 15px;
+}
+
+.started-2{
+    margin-top: 20px;
+}
+
+.input-2{
+    margin-top: -150px;
+}
+
+.started2:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color: white;
+    color: #3165FA;
+    border:solid #3165FA;
+    border-radius: 20px;
+    box-shadow: 15px 10px 15px #8F8F8F;
+}
+
+.started2:focus{
+    background-color: #C7C5F7;
+    color: white;
+    border: #C7C5F7;
+}
+
+.input2:hover{
+    transform: scale(1.1);
+    transition: 2s;
+}
+
+.footer1{
+    background-color: #08043A;
+    height: 284px;
+    width: 1555px;
+    margin-left: -41px;
+
+}
+
+@media only screen and (max-width: 800px) {
+    .logo {
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .btns-div {
+        margin-left: 300px;
+        margin-top: -20px;
+    }
+    .text {
+        margin-top: 100px;
+        width: 300px;
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    .text2 {
+        font-size: 15px;
+        width: 250px;
+        margin-left: 10px;
+    }
+    .email {
+        height: 20px;
+        width: 180px;
+        margin-left: 10px;
+    }
+    .started {
+    }
+}
