@@ -26,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 document.querySelector('.reset-button').addEventListener('click', () => {
-    // Reset functionality (for demo purposes, we'll just show a popup)
     showPopup();
   });
   

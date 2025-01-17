@@ -1,0 +1,91 @@
+/* styles.css */
+
+:root {
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body {
+    background-color: var(--light-gray);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: var(--transparent-white);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.card p {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    color: var(--transparent-white);
+}
+
+.card a {
+    text-decoration: none;
+    background-color: var(--transparent-white);
+    color: inherit;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card a:hover {
+    background-color: inherit;
+    color: var(--light-gray);
+}
+
+.card-sedan {
+    background-color: var(--bright-orange);
+}
+
+.card-suv {
+    background-color: var(--dark-cyan);
+}
+
+.card-luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .card {
+        padding: 30px;
+    }
+}

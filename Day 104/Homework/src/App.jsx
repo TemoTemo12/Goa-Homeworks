@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import Animal from './components/Animal';
 import Iphone from './components/Iphone';
 import Linux from './components/Linux';
