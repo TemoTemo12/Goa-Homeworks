@@ -7,8 +7,8 @@ app.use(cors({ origin: "http://localhost:5173" }))
 
 const user = {
     id: 1,
-    name: "Temur lengi",
-    email: "temo92782@gmail.com"
+    name: "User",
+    email: "example@gmail.com"
 }
 
 app.get("/api/user", (req, res) => {
