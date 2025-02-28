@@ -101,7 +101,8 @@ I Learned Everything what i Know now and Still Learning This is Hard But Still d
 
 - 🧠 I'm currently learning... Javascript
 
-- 👯‍♀️ I'm looking to collaborate on... 29 September with Everyone
+- 👯‍♀️ I'm looking to collaborate on... nobody
+  
 
 - 💬 Ask me about...Frontent Developer
 
@@ -109,7 +110,7 @@ I Learned Everything what i Know now and Still Learning This is Hard But Still d
 
 - 😄 Pronouns...He/Him
 
-- ⚡️ Fun fact...Im Mini Leader
+- ⚡️ Fun fact... no fun fuct
 
 
 
