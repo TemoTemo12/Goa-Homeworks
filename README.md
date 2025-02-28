@@ -10,22 +10,23 @@
 
 # Goa Homeworks
 
-A brief description of what this project does and who it's for
 
 -This Respository is For GOA. There are two different type folders
 - Classworks(CW)
 - Homeworks(HW)	
 
 ## Uploading:
--	 HTML Homework Code
--	 CSS Homework Code
--	 JS Homework Code
+-	 HTML 
+-	 CSS 
+-	 JavaScript
+-	 React(vite), Tailwind Css 
+-	 Server
 +  	 Python(Until Day-12)
 
 
 
 ## Want to Copy Code?
-- Feel Free to Copy every Single Code <3
+- Feel Free to Copy every Single Code <3 
 
 
 
