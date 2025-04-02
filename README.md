@@ -58,7 +58,7 @@ Other Links Are Private
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS...
+Javascript, HTML, CSS, React(vite), tailwind css And More......
 
 ## Soon Bootrstarp
 
