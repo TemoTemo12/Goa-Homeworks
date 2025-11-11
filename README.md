@@ -1,8 +1,4 @@
-
-# კონტროლიორებო დამინდეთ პლზ 
-# 🙏🥺
-
-
+Worst Decision ever to waste my time on ts academy 
 
 
 
