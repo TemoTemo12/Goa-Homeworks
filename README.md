@@ -22,7 +22,7 @@ Worst Decision ever to waste my time on ts academy
 
 
 ## Want to Copy Code?
-- Feel Free to Copy every Single Code <3 
+- Feel Free to Copy every Single Code <3
 
 
 
@@ -39,7 +39,7 @@ Worst Decision ever to waste my time on ts academy
 
 ## 🔗 Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/) 
-Portfolio isn't Available Until i Learn Bootstrap
+Portfolio isn't Available Until 2026 august
 
 Other Links Are Private
 
@@ -91,21 +91,19 @@ I Learned Everything what i Know now and Still Learning This is Hard But Still d
 
 ## More About Me 💚
 
-## 😎Goa Best
 
-- 👩‍💻 I'm currently working on... Portfolio
+- 👩‍💻 I'm currently working on... new projects (road is 100 repo)
 
 - 🧠 I'm currently learning... Javascript
 
-- 👯‍♀️ I'm looking to collaborate on... 29 September with Everyone
-
-- 💬 Ask me about...Frontent Developer
+- 👯‍♀️ I'm looking to collaborate on... nun ima solo ts
+- 💬 Ask me about... Frontend and Backend
 
 - 📫 How to reach me...temo92782@gmail.com
 
 - 😄 Pronouns...He/Him
 
-- ⚡️ Fun fact...Im Mini Leader
+- ⚡️ Fun fact... 
 
 
 
