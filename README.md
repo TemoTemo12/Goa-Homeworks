@@ -37,12 +37,6 @@ Worst Decision ever to waste my time on ts academy
 
 
 
-## 🔗 Links
-[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/) 
-Portfolio isn't Available Until 2026 august
-
-Other Links Are Private
-
 ----
 
 
